@@ -10,9 +10,19 @@
 
 <body class="body">
     <header class="header">
+        Weather Report
     </header>
 
-    <main class="main">
+    <main id= "container" class= "container">
+        <div class="row">
+            <div id="searchBar">
+                <h1 class="h1">Enter a City</h1>
+                <form id= "enter-city">
+                    <input cityName ="city" type="text" id="city" class="cityInput"/>
+                    <button id="searchBtn" class="searchBtn" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
